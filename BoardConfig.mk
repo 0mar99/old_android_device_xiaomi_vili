@@ -25,16 +25,6 @@ MALLOC_SVELTE := true
 # Firmware
 -include vendor/xiaomi/vili-firmware/BoardConfigVendor.mk
 
-# Kernel
-TARGET_KERNEL_CONFIG += vendor/vili_QGKI.config
-
-# Kernel modules
-BOOT_KERNEL_MODULES := \
-  hwid.ko
-
-BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
-BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)
-
 # OTA Assert
 TARGET_OTA_ASSERT_DEVICE := vili
 
