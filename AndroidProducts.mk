@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_vili.mk
+    $(LOCAL_DIR)/blaze_vili.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_vili-user \
-    evolution_vili-userdebug \
-    evolution_vili-eng
+    blaze_vili-user \
+    blaze_vili-userdebug \
+    blaze_vili-eng
