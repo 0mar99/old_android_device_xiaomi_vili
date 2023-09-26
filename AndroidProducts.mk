@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_vili.mk
+    $(LOCAL_DIR)/derp_vili.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_vili-user \
-    bliss_vili-userdebug \
-    bliss_vili-eng
+    derp_vili-user \
+    derp_vili-userdebug \
+    derp_vili-eng

@@ -17,7 +17,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/vili-miuicamera/products/miuicam
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-bliss
+    $(LOCAL_PATH)/overlay-derp
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
