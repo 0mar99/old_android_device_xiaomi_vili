@@ -26,7 +26,7 @@ DERP_MAINTAINER := 0mar99
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Gapps Flags
-WITH_GAPPS := true
+WITH_GAPPS := false
 
 # Debugging Flags
 TARGET_INCLUDE_MATLOG := false
